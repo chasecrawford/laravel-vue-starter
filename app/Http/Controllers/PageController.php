@@ -13,4 +13,20 @@ class PageController extends Controller
             'data' => []
         ]);
     }
+
+    public function login() : View
+    {
+        return view('app', [
+            'primary_component' => 'login',
+            'data' => []
+        ]);
+    }
+
+    public function register() : View
+    {
+        return view('app', [
+            'primary_component' => 'register',
+            'data' => []
+        ]);
+    }
 }
