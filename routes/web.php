@@ -15,8 +15,9 @@ use App\Http\Controllers\PageController;
 |
 */
 
+Route::get('/', [PageController::class, 'homepage'])->name('homepage');
+
 Route::group(['middleware' => 'guest'], function () {
-    Route::get('/', [PageController::class, 'homepage'])->name('homepage');
     Route::get('/login', [PageController::class, 'login'])->name('login');
     Route::get('/register', [PageController::class, 'register'])->name('register');
 });
