@@ -9,7 +9,7 @@ import LoginForm from './forms/LoginForm.vue';
 export default {
     props: [
         'primary_component',
-        'data'
+        'input'
     ],
     components: {
         'login-form': LoginForm

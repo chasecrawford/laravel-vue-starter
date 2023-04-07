@@ -7,7 +7,7 @@
 export default {
     props: [
         'primary_component',
-        'data'
+        'input'
     ],
     components: {
     },

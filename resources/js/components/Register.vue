@@ -9,7 +9,7 @@ import RegisterForm from './forms/RegisterForm.vue';
 export default {
     props: [
         'primary_component',
-        'data'
+        'input'
     ],
     components: {
         'register-form': RegisterForm

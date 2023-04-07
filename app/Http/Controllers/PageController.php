@@ -10,7 +10,7 @@ class PageController extends Controller
     {
         return view('app', [
             'primary_component' => 'homepage',
-            'data' => []
+            'input' => []
         ]);
     }
 
@@ -18,7 +18,7 @@ class PageController extends Controller
     {
         return view('app', [
             'primary_component' => 'login',
-            'data' => []
+            'input' => []
         ]);
     }
 
@@ -26,7 +26,7 @@ class PageController extends Controller
     {
         return view('app', [
             'primary_component' => 'register',
-            'data' => []
+            'input' => []
         ]);
     }
 }

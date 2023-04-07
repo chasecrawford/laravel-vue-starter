@@ -3,7 +3,7 @@
     <main>
         <component
             v-bind:is="primary_component"
-            v-bind:data="data"
+            v-bind:input="input"
         ></component>
     </main>
 
@@ -12,7 +12,7 @@
 export default {
     props: [
         'primary_component',
-        'data'
+        'input'
     ],
     data: function() {
         return {
