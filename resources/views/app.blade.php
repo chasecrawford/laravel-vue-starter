@@ -11,7 +11,7 @@
 <div id="app">
     <App
         primary_component="{{ $primary_component }}"
-        :data="{{ json_encode($data) }}">
+        :data="{{ json_encode($input) }}">
     </App>
 </div>
 <script type="text/javascript">
